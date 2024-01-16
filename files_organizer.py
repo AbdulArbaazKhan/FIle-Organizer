@@ -27,8 +27,7 @@ if __name__ == '__main__':
     audios = [file for file in files if os.path.splitext(file)[1].lower() in audio_Exts]
     prog_Exts = [".c", ".class", ".cpp", ".cs", ".h", ".java", ".pl", ".sh", ".swift", ".vb"]
     programming = [file for file in files if os.path.splitext(file)[1].lower() in prog_Exts]
-    media_Exts = [".3g2", ".3gp", ".avi", ".flv", ".h264", ".m4v", ".mkv", ".mov", ".mp4", ".mpg", ".mpeg", ".rm",
-                  ".swf", ".vob", ".wmv", ".webm"]
+    media_Exts = [".3g2", ".3gp", ".avi", ".flv", ".h264", ".m4v", ".mkv", ".mov", ".mp4", ".mpg", ".mpeg", ".rm", ".swf", ".vob", ".wmv", ".webm"]
     videos = [file for file in files if os.path.splitext(file)[1].lower() in media_Exts]
     html_Exts = [".html", ".mhtml", ".xmls", "php"]
     html_pages = [file for file in files if os.path.splitext(file)[1].lower() in html_Exts]
